@@ -1,0 +1,11 @@
+<launch>
+
+    <!-- Start a publisher node, takes in base_scan and filters it and published filtered_scan. -->
+    <node pkg="rob599_hw1" name="mod_scan" type="mod_scan.py">
+    </node>
+
+    <!-- Start the basic_navigation node. -->
+    <node pkg="rob599_hw1" name="scan_move" type="scan_move.py">
+    </node>
+
+</launch>
