@@ -1,0 +1,2 @@
+fetch_gazebo/fetch_gazebo:fetch_gazebo/fetch_gazebo_demo:fetch_gazebo/fetch_simulation:fetch_gazebo/fetchit_challenge:rob599_basic:rob599_hw1:rob599_more:rob599_navigation
+-DCATKIN_DEVEL_PREFIX=/home/matt/rob599_ws/devel -DCMAKE_INSTALL_PREFIX=/home/matt/rob599_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/matt/rob599_ws/devel
+
+Name: rob599_hw1
+Description: Description of rob599_hw1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
