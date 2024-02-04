@@ -71,15 +71,15 @@ fetch_gazebo/fetchit_challenge/CMakeFiles/fetchit_challenge_generate_messages_cp
 
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineAction.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionGoal.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionResult.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineFeedback.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionFeedback.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionResult.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineResult.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineGoal.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionGoal.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from fetchit_challenge/SchunkMachineAction.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineAction.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -106,9 +106,9 @@ fetch_gazebo/fetchit_challenge/CMakeFiles/fetchit_challenge_generate_messages_cp
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SchunkMachineActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from fetchit_challenge/SchunkMachineActionFeedback.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SchunkMachineActionFeedback.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -133,44 +133,44 @@ fetch_gazebo/fetchit_challenge/CMakeFiles/fetchit_challenge_generate_messages_cp
 
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraAction.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionResult.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraGoal.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraGoal.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionFeedback.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraResult.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionGoal.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraResult.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionFeedback.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionResult.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from fetchit_challenge/SickCameraAction.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraAction.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionGoal.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraGoal.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraGoal.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from fetchit_challenge/SickCameraActionGoal.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionGoal.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionResult.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraResult.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraResult.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from fetchit_challenge/SickCameraActionResult.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionResult.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionFeedback.msg
+/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraFeedback.msg
 /home/matt/rob599_ws/devel/include/fetchit_challenge/SickCameraActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matt/rob599_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from fetchit_challenge/SickCameraActionFeedback.msg"
 	cd /home/matt/rob599_ws/src/fetch_gazebo/fetchit_challenge && /home/matt/rob599_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matt/rob599_ws/devel/share/fetchit_challenge/msg/SickCameraActionFeedback.msg -Ifetchit_challenge:/home/matt/rob599_ws/devel/share/fetchit_challenge/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p fetchit_challenge -o /home/matt/rob599_ws/devel/include/fetchit_challenge -e /opt/ros/noetic/share/gencpp/cmake/..

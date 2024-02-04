@@ -5,4 +5,4 @@ Description: Description of rob599_hw1
 Version: 0.0.0
 Cflags: -I/home/matt/rob599_ws/devel/include
 Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs
+Requires: roscpp rospy std_msgs actionlib_msgs

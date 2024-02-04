@@ -1,0 +1,5 @@
+float32 stopping_distance
+---
+bool goal_reached
+---
+float32 distance_to_obstacle

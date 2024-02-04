@@ -42,6 +42,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw1/action" TYPE FILE FILES "/home/matt/rob599_ws/src/rob599_hw1/action/approach.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw1/msg" TYPE FILE FILES
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachAction.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachActionGoal.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachActionResult.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachActionFeedback.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachGoal.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachResult.msg"
+    "/home/matt/rob599_ws/devel/share/rob599_hw1/msg/approachFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw1/cmake" TYPE FILE FILES "/home/matt/rob599_ws/build/rob599_hw1/catkin_generated/installspace/rob599_hw1-msg-paths.cmake")
 endif()
 

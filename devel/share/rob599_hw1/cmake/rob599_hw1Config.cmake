@@ -185,7 +185,7 @@ foreach(t ${rob599_hw1_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;rospy;std_msgs")
+set(depends "roscpp;rospy;std_msgs;actionlib_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
